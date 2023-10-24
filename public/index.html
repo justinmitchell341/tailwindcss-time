@@ -10,9 +10,16 @@
     <script src="script.js" defer></script>
 
 </head>
-<body>
-
-    <h1>Starter kit for Tailwind CSS.</h1>
+<body class="h-screen flex items-center justify-center bg-yellow-600">
+  
+    <time class="container mx-auto block grid lg:grid-cols-4 md:grid-cols-2 text-8xl bg-gradient-to-r from-purple-400 to-gray-500 rounded-full">
     
-</body>
+      <data class="hours block text-black">HH</data>
+      <data class="minutes block text-black">MM</data>
+      <data class="seconds block text-black">SS</data>
+      <data class="amOrPM block text-black">AM/PM</data>
+    
+    </time>
+    
+  </body>
 </html>
